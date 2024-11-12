@@ -4,7 +4,6 @@ public class CarModelEntity {
     private int id;
     private String name;
 
-    // Конструкторы, геттеры и сеттеры
     public CarModelEntity() {}
 
     public CarModelEntity(int id, String name) {

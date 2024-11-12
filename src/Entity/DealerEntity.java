@@ -4,7 +4,6 @@ public class DealerEntity {
     private int id;
     private String name;
 
-    // Конструкторы, геттеры и сеттеры
     public DealerEntity() {}
 
     public DealerEntity(int id, String name) {

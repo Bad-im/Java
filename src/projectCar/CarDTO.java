@@ -1,7 +1,5 @@
 package projectCar;
 
-import java.util.Random;
-
 public class CarDTO {
     private String id;
     private CarModelDTO carModel;
@@ -11,7 +9,6 @@ public class CarDTO {
     private String color;
     private double price;
 
-    // Конструктор
     public CarDTO(String id, CarModelDTO carModel, DealerCenter dealerCenter, String condition, String configuration, String color, double price) {
         this.id = id;
         this.carModel = carModel;
@@ -22,7 +19,6 @@ public class CarDTO {
         this.price = price;
     }
 
-    // Геттеры и сеттеры
     public String getId() {
         return id;
     }

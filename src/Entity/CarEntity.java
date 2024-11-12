@@ -5,7 +5,6 @@ public class CarEntity {
     private int modelId;
     private int dealerId;
 
-    // Конструкторы, геттеры и сеттеры
     public CarEntity() {}
 
     public CarEntity(int id, int modelId, int dealerId) {
